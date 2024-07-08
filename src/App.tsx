@@ -1,4 +1,3 @@
-import './App.css'
 import AppPage from './components/AppPage'
 
 function App() {
