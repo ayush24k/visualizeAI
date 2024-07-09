@@ -1,5 +1,6 @@
 'use client'
 
+
 import {useState } from "react"
 
 export default function AppPage() {
@@ -40,8 +41,8 @@ export default function AppPage() {
                         height={400}
                         src={image ? image : "./placeholder.png"}
                         style={{
-                            aspectRatio: 600 / 400,
-                            objectFit: "cover"
+                            // aspectRatio: 1000 / 1000,
+                            objectFit: "contain"
                         }}
                         width={600}
                     />
